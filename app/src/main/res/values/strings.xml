@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Consulta Api GitHub</string>
+    <string name="lista_vazia">LISTA DE REPOSITÓRIO VAZIA</string>
+    <string name="n_o_h_lista_carregada">Não há lista carregada</string>
+</resources>
