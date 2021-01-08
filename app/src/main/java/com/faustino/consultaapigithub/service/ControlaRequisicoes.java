@@ -8,7 +8,6 @@ import com.faustino.consultaapigithub.model.Item;
 import com.faustino.consultaapigithub.model.ObjetoRepos;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -39,7 +38,6 @@ public class ControlaRequisicoes {
                 .build();
     }
 
-    //public void retornaRepositorios(String language){
     public void retornaRepositorios(String language, int page){
 
         ServiceRepoGitHub dataService = retrofit.create(ServiceRepoGitHub.class);

@@ -1,10 +1,5 @@
 package com.faustino.consultaapigithub.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +9,11 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.faustino.consultaapigithub.R;
 import com.faustino.consultaapigithub.adapter.ListarRepositoriosAdapter;
@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements RespostaRequisico
     private String language;
 
     private List<Item> listRepo = new ArrayList<>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
